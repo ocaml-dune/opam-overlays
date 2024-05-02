@@ -34,7 +34,7 @@ available: os != "win32"
 url {
   src: "https://github.com/Leonidas-from-XIV/ocamlbuild/releases/download/0.14.3%2Bdune/ocamlbuild-0.14.3+dune.tar.gz"
   checksum: [
-    "md5=9fa3b1ab367c399eb3007e0e59f92117"
-    "sha512=f8d5fad540281d144538f3738e4b1d380cb64828b1cf52196b8283ebfc26cd66f3f1bba94830c30a7f0bc122a0f773badc995ecb6d6b21451e2292712851c602"
+    "md5=bf9faefb3959f9f288e1f6e70906690f"
+    "sha512=60945dd913005cddde38fcb93e8794258a5063de316741cf53031add25020c7161556e35efce3ef422875d4fe5a63292938ff06953be6485f12cf20a21a4dba2"
   ]
 }
