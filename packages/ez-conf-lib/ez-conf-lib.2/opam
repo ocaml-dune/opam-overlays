@@ -1,0 +1,22 @@
+opam-version: "2.0"
+synopsis: "Simple generator of conf-<pkg>.config files"
+description:
+    "This package provides a simplistic utility that \
+     helps writing virtual packages used to detect system libraries"
+authors: ["Nicolas Berthier"]
+maintainer: "Nicolas Berthier <m@nberth.space>"
+homepage: "https://github.com/nberth/ez-conf-lib"
+dev-repo: "git+https://github.com/nberth/ez-conf-lib.git"
+bug-reports: "https://github.com/nberth/ez-conf-lib/issues"
+license: "GPL-3.0-only"
+build: [
+  [ "sh" "-ecx" "./gen-config" ]
+]
+depends: [
+  "ocaml"
+  "conf-findutils"
+]
+url {
+  src: "https://github.com/gridbugs/ez-conf-lib/archive/refs/tags/2-install-to-bin.tar.gz"
+  checksum: "sha512=ec09da354262c13a7be5660c717ccf594ea08479949b7c762b9ba04a72a2151ca792609dde0586449ac6ce65a1df5498f90c051b0c3770f1bb9aaebc6fb07bca"
+}
